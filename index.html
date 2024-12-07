@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="card-Header">
+            <input type="text" placeholder="Search City">
+            <button class='bx bx-search-alt bx-tada'></button>
+        </div>
+        <div class="error">
+            <div class="images">
+                <img src="images/404.png" alt="">
+            </div>
+            <p>Sorry , Location Not Found !!!</p>
+        </div>
+        <div class="weather-body">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="tem">
+                <p class="tem-Num"><span></span> <sup>°C</sup></p>
+                <p class="tem-name">Haze</p>
+
+            </div>
+
+            <div class="hum-wind">
+                <div class="humidity">
+                    <div class="icon"><i class='bx bxs-droplet bx-tada'></i></div>
+                    <div class="p-cont">
+                        <p class="per"><span></span>%</p>
+                        <p class="hum">Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-speed">
+                    <div class="icon"><i class='bx bx-wind bx-tada'></i></i></div>
+                    <div class="wind">
+                        <p class="km"><span></span> KM/H</p>
+                        <p class="ws">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
