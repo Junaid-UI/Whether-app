@@ -28,13 +28,15 @@ async function checkWeather(city) {
         }else if(result.weather[0].main == "Clear") {
             image.src = 'images/clear.png'
         }else if(result.weather[0].main == "Haze") {
-            image.src = 'images/mist.png'
+            image.src = 'images/haze.png'
         }else if(result.weather[0].main == "Rain") {
             image.src = 'images/rain.png'
         }else if(result.weather[0].main == "Snow") {
             image.src = 'images/snow.png'
         }else if(result.weather[0].main == "Smoke") {
             image.src = 'images/smoke.png'
+        }else if(result.weather[0].main == "Mist") {
+            image.src = 'images/mist.png'
         }else {
            image.style.display = 'none'
         }
