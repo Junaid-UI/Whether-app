@@ -24,17 +24,17 @@ async function checkWeather(city) {
         weatherBody.style.display = 'flex'
       //  console.log(result);
         if(result.weather[0].main == "Cloud") {
-            image.src = 'images/cloud.png'
+            image.src = 'Whether-app/images/cloud.png'
         }else if(result.weather[0].main == "Clear") {
-            image.src = 'images/clear.png'
+            image.src = 'Whether-app/images/clear.png'
         }else if(result.weather[0].main == "Haze") {
-            image.src = 'images/mist.png'
+            image.src = 'Whether-app/images/mist.png'
         }else if(result.weather[0].main == "Rain") {
-            image.src = 'images/rain.png'
+            image.src = 'Whether-app/images/rain.png'
         }else if(result.weather[0].main == "Snow") {
-            image.src = 'images/snow.png'
+            image.src = 'Whether-app/images/snow.png'
         }else if(result.weather[0].main == "Smoke") {
-            image.src = 'images/smoke.png'
+            image.src = 'Whether-app/images/smoke.png'
         }
 
         
