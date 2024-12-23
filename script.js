@@ -35,6 +35,8 @@ async function checkWeather(city) {
             image.src = 'images/snow.png'
         }else if(result.weather[0].main == "Smoke") {
             image.src = 'images/smoke.png'
+        }else {
+           image.style.display = 'none'
         }
 
         
